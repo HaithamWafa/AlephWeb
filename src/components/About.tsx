@@ -6,7 +6,7 @@ const About = () => {
     <section id="about" className="py-24 bg-estate-cream">
       <div className="container-custom">
         <div className="flex flex-col items-center text-center mb-16">
-          <h2 className="section-title">About LuxeEstates</h2>
+          <h2 className="section-title">About Aleph Developments</h2>
           <p className="section-subtitle">
             We bring over two decades of expertise to every property development, creating spaces that blend luxury, functionality, and sustainability.
           </p>
@@ -15,7 +15,7 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg text-estate-charcoal/80">
-              Founded in 2002, LuxeEstates has established itself as a premier real estate development company, specializing in luxury residential and commercial properties around the world.
+              Founded in 2002, Aleph Developments has established itself as a premier real estate development company, specializing in luxury residential and commercial properties around the world.
             </p>
             <p className="text-lg text-estate-charcoal/80">
               Our philosophy is centered around creating exceptional spaces that not only meet the highest standards of quality but also enhance the lives of those who inhabit them.

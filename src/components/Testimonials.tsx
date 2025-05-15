@@ -7,7 +7,7 @@ const testimonials = [
     id: 1,
     name: "Robert Anderson",
     position: "CEO, Anderson Enterprises",
-    quote: "Working with LuxeEstates was an exceptional experience from start to finish. Their attention to detail and commitment to quality is unmatched in the industry.",
+    quote: "Working with Aleph Developments was an exceptional experience from start to finish. Their attention to detail and commitment to quality is unmatched in the industry.",
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&h=100&q=80",
     rating: 5
   },
@@ -15,7 +15,7 @@ const testimonials = [
     id: 2,
     name: "Sophia Chen",
     position: "Real Estate Investor",
-    quote: "The team at LuxeEstates demonstrated profound expertise and professionalism throughout our project. Their innovative approach to development has significantly enhanced our investment portfolio.",
+    quote: "The team at Aleph Developments demonstrated profound expertise and professionalism throughout our project. Their innovative approach to development has significantly enhanced our investment portfolio.",
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&h=100&q=80",
     rating: 5
   },
@@ -23,7 +23,7 @@ const testimonials = [
     id: 3,
     name: "Marcus Johnson",
     position: "Property Developer",
-    quote: "LuxeEstates consistently delivers beyond expectations. Their strategic vision and flawless execution have made them our preferred partner for all our development projects.",
+    quote: "Aleph Developments consistently delivers beyond expectations. Their strategic vision and flawless execution have made them our preferred partner for all our development projects.",
     image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&h=100&q=80",
     rating: 4
   }
@@ -46,7 +46,7 @@ const Testimonials = () => {
         <div className="flex flex-col items-center text-center mb-16">
           <h2 className="section-title">What Our Clients Say</h2>
           <p className="section-subtitle">
-            Hear from our satisfied clients about their experience working with LuxeEstates.
+            Hear from our satisfied clients about their experience working with Aleph Developments.
           </p>
         </div>
         
