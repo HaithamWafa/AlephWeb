@@ -1,41 +1,35 @@
-/* Modern Reset */
-*,
-*::before,
-*::after {
+/* CSS STYLES */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-/* Base Styles */
-html {
+  }
+  
+  html {
     scroll-behavior: smooth;
     font-size: 16px;
-}
-
-body {
+  }
+  
+  body {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.7;
     color: #333;
-    -webkit-font-smoothing: antialiased;
-}
-
-h1, h2, h3 {
+  }
+  
+  h1, h2, h3 {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
     color: #2a2a2a;
-}
-
-.container {
+  }
+  
+  .container {
     max-width: 1280px;
     margin: 0 auto;
     padding: 0 2rem;
-}
-
-/* Hero Section */
-.hero-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-                url('images/egyhero.jpeg') center/cover;
+  }
+  
+  .hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/egyhero.jpeg') center/cover;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -43,231 +37,77 @@ h1, h2, h3 {
     color: #fff;
     text-align: center;
     position: relative;
-}
-
-.main-nav {
+  }
+  
+  .main-nav {
     position: absolute;
     top: 0;
     width: 100%;
     padding: 1.5rem 0;
     background: linear-gradient(to bottom, rgba(0,0,0,0.6), transparent);
-}
-
-.logo {
+  }
+  
+  .logo {
     font-size: 2rem;
     color: #fff;
     letter-spacing: 2px;
-}
-
-.hero-overlay {
+  }
+  
+  .hero-overlay {
     padding: 0 1.5rem;
-}
-
-.tagline {
+  }
+  
+  .tagline {
     font-size: 4rem;
     line-height: 1.1;
     margin-bottom: 1.5rem;
     text-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-}
-
-.subtagline {
+  }
+  
+  .subtagline {
     font-size: 1.5rem;
     margin-bottom: 3rem;
     font-weight: 300;
     opacity: 0.9;
-}
-
-/* Timeline Redesign */
-.timeline {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 3rem;
-    margin: 4rem 0;
-    position: relative;
-}
-
-.timeline::after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%;
-    height: 2px;
-    background: #ff8c00;
-    z-index: -1;
-}
-
-.timeline-event {
-    background: #fff;
-    padding: 2rem;
-    border-radius: 12px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-    text-align: center;
-    transition: transform 0.3s ease;
-}
-
-.timeline-event:hover {
-    transform: translateY(-8px);
-}
-
-/* Expertise Grid */
-.expertise-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 2rem;
-    margin-top: 4rem;
-}
-
-.expertise-item {
-    background: #fff;
-    padding: 2.5rem;
-    border-radius: 12px;
-    text-align: center;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-    transition: all 0.3s ease;
-}
-
-.expertise-item:hover {
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-    transform: translateY(-5px);
-}
-
-.expertise-item i {
-    font-size: 2.5rem;
-    color: #ff8c00;
-    margin-bottom: 1.5rem;
-}
-
-/* Project Gallery */
-.project-slider {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-    margin-top: 4rem;
-}
-
-.project-item {
-    position: relative;
-    border-radius: 12px;
-    overflow: hidden;
-    transition: transform 0.3s ease;
-}
-
-.project-item:hover {
-    transform: translateY(-5px);
-}
-
-.project-item img {
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
-    transition: transform 0.3s ease;
-}
-
-.project-item:hover img {
-    transform: scale(1.05);
-}
-
-/* Testimonials */
-.testimonials-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-    margin-top: 4rem;
-}
-
-.testimonial-item {
-    background: #fff;
-    padding: 2.5rem;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-    position: relative;
-}
-
-.testimonial-item::before {
-    content: '"';
-    position: absolute;
-    top: -1rem;
-    left: 1rem;
-    font-size: 4rem;
-    color: #ff8c00;
-    opacity: 0.3;
-}
-
-/* Contact Form */
-.contact-form {
-    max-width: 600px;
-    margin: 4rem auto 0;
-}
-
-.contact-form input,
-.contact-form textarea {
-    width: 100%;
-    padding: 1rem;
-    margin-bottom: 1.5rem;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    font-size: 1rem;
-    transition: border-color 0.3s ease;
-}
-
-.contact-form input:focus,
-.contact-form textarea:focus {
-    outline: none;
-    border-color: #ff8c00;
-}
-
-/* Footer */
-.footer {
-    background: #2a2a2a;
-    color: #fff;
-    padding: 4rem 0 2rem;
-    margin-top: 6rem;
-}
-
-.footer-content {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
-    margin-bottom: 3rem;
-}
-
-.copyright {
-    text-align: center;
-    margin-top: 3rem;
-    opacity: 0.7;
-}
-
-/* CTA Button */
-.cta-button {
+  }
+  
+  .cta-button {
     display: inline-block;
     background: #ff8c00;
     color: #fff;
-    padding: 1rem 2.5rem;
-    border-radius: 50px;
+    padding: 0.75rem 2rem;
+    border-radius: 30px;
+    font-weight: bold;
     text-decoration: none;
-    font-weight: 600;
-    transition: all 0.3s ease;
-}
-
-.cta-button:hover {
-    background: #e07b00;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(255, 140, 0, 0.3);
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    html {
-        font-size: 14px;
-    }
-
-    .tagline {
-        font-size: 2.5rem;
-    }
-
-    .timeline::after {
-        display: none;
-    }
-}
+    transition: background 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background: #e67600;
+  }
+  
+  .footer {
+    background: #111;
+    color: #fff;
+    padding: 3rem 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .footer-brand h3 {
+    font-size: 1.5rem;
+  }
+  
+  .footer-contact p {
+    margin: 0.25rem 0;
+  }
+  
+  /* Additional sections and animations to be added */
+  
